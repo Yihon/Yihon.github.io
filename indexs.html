@@ -3,15 +3,15 @@
 		<title>Our Story</title>
 	    
         <link type="text/css" rel="stylesheet" href="./stylesheets/default.css">
-		<script type="text/javascript" src="./index_files/jquery.min.js"></script>
-		<script type="text/javascript" src="./index_files/jscex.min.js"></script>
-		<script type="text/javascript" src="./index_files/jscex-parser.js"></script>
-		<script type="text/javascript" src="./index_files/jscex-jit.js"></script>
-		<script type="text/javascript" src="./index_files/jscex-builderbase.min.js"></script>
-		<script type="text/javascript" src="./index_files/jscex-async.min.js"></script>
-		<script type="text/javascript" src="./index_files/jscex-async-powerpack.min.js"></script>
-		<script type="text/javascript" src="./index_files/functions.js" charset="utf-8"></script>
-		<script type="text/javascript" src="./index_files/love.js" charset="utf-8"></script>
+		<script type="text/javascript" src="./javascripts/jquery.min.js"></script>
+		<script type="text/javascript" src="./javascripts/jscex.min.js"></script>
+		<script type="text/javascript" src="./javascripts/jscex-parser.js"></script>
+		<script type="text/javascript" src="./javascripts/jscex-jit.js"></script>
+		<script type="text/javascript" src="./javascripts/jscex-builderbase.min.js"></script>
+		<script type="text/javascript" src="./javascripts/jscex-async.min.js"></script>
+		<script type="text/javascript" src="./javascripts/jscex-async-powerpack.min.js"></script>
+		<script type="text/javascript" src="./javascripts/functions.js" charset="utf-8"></script>
+		<script type="text/javascript" src="./javascripts/love.js" charset="utf-8"></script>
 	    <style type="text/css">
 <!--
 .STYLE1 {color: #666666}
@@ -193,11 +193,11 @@
 
         var textAnimate = eval(Jscex.compile("async", function () {
 		    var together = new Date();
-		    together.setFullYear(2013, 07, -5); 			//时间年月日
-		    together.setHours(16);						//小时	
-		    together.setMinutes(53);					//分钟
+		    together.setFullYear(2015, 01, 01); 			//时间年月日
+		    together.setHours(09);						//小时	
+		    together.setMinutes(00);					//分钟
 		    together.setSeconds(0);					//秒前一位
-		    together.setMilliseconds(2);				//秒第二位
+		    together.setMilliseconds(0);				//秒第二位
 
 		    $("#code").show().typewriter();
             $("#clock-box").fadeIn(500);
